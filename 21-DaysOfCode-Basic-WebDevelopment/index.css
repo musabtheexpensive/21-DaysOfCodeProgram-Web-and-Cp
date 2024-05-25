@@ -1,11 +1,18 @@
-.header-container{
-    height: 100vh;
-    background-color: var(--background-color);
+.header-container {
+  height: 100vh;
+  background-color: var(--background-color);
+  background-image: url("./images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.nav{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    color: var(--font-primary-color);
-
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-primary-color);
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
+  .header-container {
+   
+  }
 }
