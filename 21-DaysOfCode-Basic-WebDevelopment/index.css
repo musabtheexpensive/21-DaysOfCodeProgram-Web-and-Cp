@@ -1,0 +1,11 @@
+.header-container{
+    height: 100vh;
+    background-color: var(--background-color);
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-primary-color);
+
+}
