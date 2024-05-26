@@ -1,18 +1,64 @@
 .header-container {
   height: 100vh;
-  background-color: var(--background-color);
   background-image: url("./images/Rectangle\ 5.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .nav {
-  padding: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   color: var(--font-primary-color);
+  font-size: 36px;
+}
+.img-nav {
+  width: 175px;
+  text-align: right;
+}
+.banner-title h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin: 40px 0px;
+}
+.banner-desc {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px 0px;
+}
+.banner-image-container {
+  background-color: var(--font-primary-color);
+  width: fit-content;
+}
+#banner-image {
+  height: 300px;
+}
+.banner-profile-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 30px;
+}
+.work-icon-container {
+  display: flex;
+  gap: 1px;
+  margin: 40px 0px;
+  border-bottom: 1px solid var(--font-primary-color);
+}
+.check-icon {
+  width: 50px;
+  height: 35px;
+}
+.banner-profile-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--font-primary-color);
+  border-bottom: 1px solid var(--font-primary-color);
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
   .header-container {
-   
   }
 }
