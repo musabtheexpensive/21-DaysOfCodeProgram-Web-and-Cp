@@ -58,7 +58,32 @@
   border-top: 1px solid var(--font-primary-color);
   border-bottom: 1px solid var(--font-primary-color);
 }
-@media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
+.complete-project-container {
+  display: flex;
+
+  justify-content: space-around;
+}
+.complete-project-card h1 {
+  font-size: 152px;
+  text-transform: uppercase;
+}
+.complete-project-card p {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .header-container {
+  }
+  .complete-project-container {
+    flex-direction: column;
+  }
+  .banner-profile-container {
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 25px;
+  }
+  .banner-image-container {
+    width: 90%;
   }
 }
