@@ -1,8 +1,8 @@
 .header-container {
-  height: 100vh;
+  height: 100%;
   background-image: url("./images/Rectangle\ 5.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 .nav {
   padding-top: 20px;
@@ -72,6 +72,9 @@
   text-transform: uppercase;
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
+  .container{
+    padding: 0px 7px;
+  }
   .header-container {
   }
   .complete-project-container {
@@ -80,10 +83,13 @@
   .banner-profile-container {
     flex-direction: column;
   }
-  .banner-title {
-    font-size: 25px;
+  .banner-title h1{
+    font-size: 40px;
   }
   .banner-image-container {
     width: 90%;
+  }
+  #banner-image{
+    width: 100%;
   }
 }
