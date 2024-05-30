@@ -1,7 +1,8 @@
-.section-title{
-    margin: 20px;
-    font-size: 40px;
+.section-title {
+  margin: 20px;
+  font-size: 40px;
 }
+/* project code start */
 .projects {
   display: grid;
   gap: 20px;
@@ -25,8 +26,50 @@
   border-bottom: 1px solid wheat;
   font-size: 40px;
 }
+/* blog code start */
+.my-blogs {
+  display: flex;
+  justify-content: space-around;
+}
+.tag {
+  background-color: var(--font-primary-color);
+  width: fit-content;
+  padding: 17px 30px;
+  border-radius: 50px;
+  margin: 30px 0px;
+}
+.tag h1 {
+  color: black;
+}
+.date-name {
+  display: flex;
+  gap: 20px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.round-date {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: blueviolet;
+}
+.round-name {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: blue;
+}
+.blog-title {
+  margin: 30px 0px;
+}
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .projects {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .my-blogs{
+    flex-direction: column;
   }
 }
