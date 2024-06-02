@@ -82,6 +82,34 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 10px;
 }
+.testimonial-cards {
+  display: flex;
+  gap: 15px;
+}
+.left-side-card-top {
+  width: 65%;
+  /* background-color: #2c0744; */
+  gap: 15px;
+  background-image: linear-gradient(to bottom right, #5d4af12c, #b90bf936);
+}
+
+.singleCard {
+  display: flex;
+}
+.right-side-card {
+  width: 45%;
+  background-color: #2c0744;
+}
+.testi-left-card-title {
+  margin-top: 30px;
+  font-size: 50px;
+  padding: 10px;
+}
+.testi-left-card-desc {
+  margin-top: 15px;
+  padding: 10px;
+}
+
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .projects {
     grid-template-columns: repeat(1, 1fr);
