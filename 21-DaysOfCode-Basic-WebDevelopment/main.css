@@ -65,11 +65,28 @@
 .blog-title {
   margin: 30px 0px;
 }
+.img-blog img {
+  width: 100%;
+}
+/* testimonial section start here */
+.testimonial-title {
+  text-align: center;
+}
+#testimonial-title {
+  font-size: 80px;
+  color: var(--primary-color);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#testimonial-desc {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
-  .my-blogs{
+  .my-blogs {
     flex-direction: column;
   }
 }
