@@ -1,8 +1,18 @@
-/* footer {
+footer {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #4e38bf, 9fdf);
+  margin-top: 20px;
+  background-image: linear-gradient(to bottom right, #4e38bf, #9415db);
+}
+.footer-container {
+  display: flex;
+  padding: 50px;
+}
+.left-footer-form {
+  width: 50%;
+}
+.right-footer-contact {
+  width: 50%;
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
-
-} */
+}
