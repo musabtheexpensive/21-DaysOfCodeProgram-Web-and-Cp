@@ -1,6 +1,6 @@
 footer {
-  height: 100vh;
-  margin-top: 20px;
+  height: 90vh;
+  margin-top: 30px;
   background-image: linear-gradient(to bottom right, #4e38bf, #9415db);
 }
 .footer-container {
@@ -32,9 +32,22 @@ footer {
   width: 70%;
   padding: 10px;
   background: transparent;
+  font-size: 20px;
   outline: none;
+  margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid white;
+}
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+.send-btn{
+  width: 70%;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 30px;
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
 }
