@@ -15,6 +15,9 @@
 body {
   background-color: var(--background-color);
 }
-.container{
+.container {
   padding: 0px 40px;
+}
+.bg-gradient {
+  background-image: linear-gradient(to bottom right, #1d052f, #161539);
 }
