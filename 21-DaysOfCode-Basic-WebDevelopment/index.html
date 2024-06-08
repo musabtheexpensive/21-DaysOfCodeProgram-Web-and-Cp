@@ -522,11 +522,28 @@
           <div class="form-title">
             <h1 id="form-title">// wanna work together?</h1>
           </div>
-          <form onsubmit="handleContact(event)" style="margin-top: 50px" action="">
-            <input type="text" class="input" name="name" placeholder="YOUR NAME" />
-            <input type="text" class="input" name="email" placeholder="YOUR EMAIL" />
+          <form
+            onsubmit="handleContact(event)"
+            style="margin-top: 50px"
+            action=""
+          >
             <input
-            name="message"
+              type="text"
+              class="input"
+              name="name"
+              placeholder="YOUR NAME"
+              required
+            />
+            <input
+              type="text"
+              class="input"
+              name="email"
+              placeholder="YOUR EMAIL"
+              required
+            />
+            <input
+              required
+              name="message"
               style="margin-top: 30px"
               type="text"
               class="input"
@@ -534,6 +551,11 @@
             />
             <button type="submit" class="send-btn">SEND</button>
           </form>
+          <div id="success_container">
+            <!-- <p>Your Name : </p>
+            <p>Your Email : </p>
+            <p>Your Message : </p> -->
+          </div>
         </div>
         <div class="right-footer-contact">
           <div>
