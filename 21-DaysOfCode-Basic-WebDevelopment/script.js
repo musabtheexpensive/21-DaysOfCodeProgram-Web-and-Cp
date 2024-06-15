@@ -18,3 +18,25 @@ function handleContact(event) {
   successContainer.appendChild(emailParagraph);
   successContainer.appendChild(messageParagraph);
 }
+// for loop example
+const imageArray = [
+  {
+    name: "image1",
+    url: "https://picsum.photos/200/300",
+  },
+  {
+    name: "image1",
+    url: "https://picsum.photos/200/300",
+  },
+  {
+    name: "image1",
+    url: "https://picsum.photos/200/300",
+  },
+];
+
+for (const item of imageArray) {
+  console.log(item);
+}
+for (let index = 0; index < 500; index++) {
+  console.log(index);
+}
