@@ -22,21 +22,42 @@ function handleContact(event) {
 const imageArray = [
   {
     name: "image1",
-    url: "https://picsum.photos/200/300",
+    url: "./images/project/image 1.png",
   },
   {
     name: "image1",
-    url: "https://picsum.photos/200/300",
+    url: "./images/project/image 2.png",
   },
   {
     name: "image1",
-    url: "https://picsum.photos/200/300",
+    url: "./images/project/image 3.png",
+  },
+  {
+    name: "image1",
+    url: "./images/project/image 4.png",
   },
 ];
 
-for (const item of imageArray) {
-  console.log(item);
-}
-for (let index = 0; index < 500; index++) {
-  console.log(index);
+// for (const item of imageArray) {
+//   console.log(item);
+// }
+// const imageLength = imageArray.length;
+// console.log(imageLength);
+// for (let index = 0; index < imageLength; index++) {
+//   console.log(index);
+//   console.log(imageArray[index]);
+// }
+
+// check all project button action start here
+function handleShowMoreProject() {
+  const projectContainer = document.getElementById("projects");
+
+  for (const item of imageArray) {
+    const projectDivImage = document.createElement("div");
+    projectDivImage.innerHTML = `
+    <img src="${item.url}" alt="">`;
+    projectContainer.appendChild(projectDivImage);
+    console.log(projectDivImage);
+  }
+  console.log("click", projectContainer);
 }
